@@ -1,0 +1,18 @@
+{
+    "name": "Codepad Masters",
+    "short_name": "Codepad",
+    "_comment": "This is the name of the app that will be displayed to the user when the app is installed. It is also used as the app's launcher icon name on the user's device.",
+    "start_url": "./",
+    "_comment": "Orientation is not supported on Safari as of iOS 11.3.",
+    "theme_color": "#ffc252",
+    "scope": "./",
+    "_comment": "The scope determines which files the browser considers to be within the app's scope. Multiple domains could lead to problems, also PWAs have their own broswer for external links.",
+    "display": "standalone",
+    "_comment": "The display property determines the display mode for the application. The standalone value hides the browser UI elements and shows the application UI elements. The fullscreen value hides all browser UI elements and the application runs in fullscreen mode. The minimal-ui value causes the browser to look and act like a standalone application, but with minimal UI elements. The browser will show a back button if there is a page history to show. The browser will also show an address bar at the top of the screen. The browser will show the normal browser UI elements for bookmarks and tabs if the user interacts with the page.",
+    "icons": [
+        { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+        { "src": "icons/icon-1024.png", "sizes": "1024x1024", "type": "image/png"},
+        { "src": "icons/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    ],
+    "_comment": "Icons can be local or CDN"
+}

@@ -1,0 +1,1 @@
+All credit goes to `https://github.com/firtman/frontendmasters-pwa`, im just putting it here for my own reference.
